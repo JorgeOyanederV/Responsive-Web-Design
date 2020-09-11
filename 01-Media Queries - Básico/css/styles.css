@@ -13,6 +13,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 1.6rem;
     line-height: 2;
+    background-color: cornflowerblue;
 }
 
 img {
@@ -39,4 +40,13 @@ p {
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
+}
+.contenedor{
+  max-width: 120rem;
+  margin: 0 auto;
+}
+@media (min-width: 500px) {
+  body{
+    background-color: lightcoral;
+  }
 }
